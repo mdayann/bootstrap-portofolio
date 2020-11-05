@@ -18,7 +18,7 @@ p {
   text-align: center;
   padding: 15em 0;
   background: #222;
-  background: url(/assets/hero.jpg), linear-gradient(#444, #111);
+  background: url(../assets/hero.jpg), linear-gradient(#444, #111);
   background-size: cover;
   background-blend-mode: multiply;
   background-attachment: fixed;

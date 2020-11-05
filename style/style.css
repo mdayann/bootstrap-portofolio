@@ -91,7 +91,7 @@ nav li:first-child a {
 }
 
 .hero-img {
-  background-image: url('/assets/hero.jpg');
+  background-image: url('../assets/hero.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ nav li:first-child a {
 }
 
 .about-img {
-  background-image: url(/assets/profile.jpg);
+  background-image: url(../assets/profile.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
