@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 15em 0;
+  background: #222;
+  background: url(/assets/hero.jpg), linear-gradient(#444, #111);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+.primary-title {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.secondary-title {
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.container {
+  width: 85%;
+  max-width: 65em;
+  margin: 0 auto;
+}
+
+.spacing * {
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 0.5em 1.25em;
+  background: #fdc62d;
+  border-radius: 0.25em;
+  transition: transform 250ms ease-in-out, opacity 250ms linear;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding-bottom: 0;
+  z-index: 99;
+  position: absolute;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 2rem;
+  list-style-type: none;
+}
+.nav-menu li {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.nav-menu .nav-links {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 20px;
+  padding: 8px;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.nav-menu .nav-links .active {
+  border-bottom: 3px solid #fdc62d;
+}
+
+.nav-links:hover {
+  transition: all 0.4s ease;
+  transform: scale(1.1);
+  border-bottom: 3px solid #fdc62d;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 2em;
+  padding: 1rem;
+  color: #fdc62d;
+  transition: all 0.4s ease;
+  border-bottom: 3px solid transparent;
+}
+.logo span:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border-bottom: 3px solid #fdc62d;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15em;
+  justify-content: center;
+}
+
+.featured-image {
+  width: 30%;
+}
+
+.items {
+  color: white;
+  text-align: center;
+}
+
+.featured-details {
+  margin-top: 0.2em;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.featured-image:hover {
+  transform: scale(1.2);
+}
