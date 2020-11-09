@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
     <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link
       rel="icon"
       href="./assets/favicon.ico"
       type="image/gif"
@@ -19,144 +30,288 @@
     <title>Muhammad Dayan</title>
   </head>
   <body>
-    <div class="hero-wrapper">
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#my-work">Work</a></li>
-          <li><a href="#about-me">About</a></li>
-        </ul>
-      </nav>
 
-      <div class="hero-grid">
-        <div class="hero-text">
-          <small>Hello</small>
-          <h1>I'm Dayan</h1>
-          <p>
-            a web developer and <br />
-            a designer.
-          </p>
+      <div class="hero-wrapper">
+
+
+        <nav class="nav">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#my-work">Work</a>
+          <a class="nav-link" href="#about-me">About</a>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-text">
+            <small>Hello</small>
+            <h1>I'm Dayan</h1>
+            <p>
+              a web developer and <br />
+              a designer.
+            </p>
+
+            <div>
+              <button type="button" class="btn btn-primary btn-grey">
+                Hire Me
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-img"></div>
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <div class="row text-center">
+          <!-- Skill item-->
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4 greyscale-img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/1051px-Adobe_Illustrator_CC_icon.svg.png"
+                alt=""
+                width="100"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+              />
+              <h5 class="mb-0">Illustrator</h5>
+            </div>
+          </div>
+          <!-- End-->
+
+          <!-- Skill item-->
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4 greyscale-img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/788px-Adobe_Photoshop_CC_icon.svg.png"
+                alt=""
+                width="100"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+              />
+              <h5 class="mb-0">Photoshop</h5>
+            </div>
+          </div>
+          <!-- End-->
+
+          <!-- Skill item-->
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4 greyscale-img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+                alt=""
+                width="100"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+              />
+              <h5 class="mb-0">Javascript</h5>
+            </div>
+          </div>
+          <!-- End-->
+
+          <!-- Skill item-->
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+              <img
+                src="https://i.pinimg.com/originals/f1/ea/a7/f1eaa7278f64e27128e062a3de918265.png"
+                alt=""
+                width="100"
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm greyscale-img"
+              />
+              <h5 class="mb-0">Java</h5>
+            </div>
+          </div>
+          <!-- End-->
+        </div>
+      </div>
+
+      <div class="specifics">
+        <div class="wrapper">
+          <h1>Specializing in</h1>
+          <div class="spec-grid header-text">
+            <p>
+              Design and code beautifully simple things, and I love what I do.
+            </p>
+          </div>
+
+          <div class="spec-grid">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="fas fa-palette"></span> &nbsp Graphic Design
+                </h5>
+                <p class="card-text">
+                  Created visuals for digital marketing channels such as social
+                  media, and online ads, Also do websites and mobiles UI design
+                  from scratch or following the branding guidelines.
+                </p>
+                <a href="#" class="btn btn-primary btn-grey">See projects →</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="fas fa-code"></span> &nbspWeb Development
+                </h5>
+                <p class="card-text">
+                  Basic knowledge for fullstack web development using React and
+                  Express, a bit experienced in backend stack using Springboot,
+                  PostgreSQL and MongoDB.
+                </p>
+                <a href="#" class="btn btn-primary btn-grey">See projects →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="my-work">
+        <div class="work">
+          <div class="work-grid">
+            <div class="work-desc">
+              <h2>Latest Work</h2>
+              <p>
+                Here are a few design projects I've worked on recently. Want to
+                see more ?
+              </p>
+
+              <p>
+                <a
+                  class="btn btn-primary btn-grey"
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Check this out →
+                </a>
+              </p>
+              <div class="collapse collapse-profile" id="collapseExample">
+                <div class="card card-body collapse-profile">
+                  <div class="social-icons">
+                    <a href="https://github.com/mdayann" target="_blank">
+                      <span class="fab fa-github"></span
+                    ></a>
+                    <a href="https://instagram.com/dr3am.realm" target="_blank"
+                      ><span class="fab fa-instagram"></span
+                    ></a>
+                    <a href="https://dribbble.com/mdayann" target="_blank"
+                      ><span class="fab fa-dribbble"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-img">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#myCarousel"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://cdn.dribbble.com/users/14268/screenshots/14258010/media/107c48a5c28cd81c7f748577d2320a7d.png"
+                      alt="First Slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://cdn.dribbble.com/users/65767/screenshots/10782022/media/f556a7d0bf7717c6b0d69ba4fab58eb0.png"
+                      alt="Second Slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://cdn.dribbble.com/users/65767/screenshots/10782022/media/f556a7d0bf7717c6b0d69ba4fab58eb0.png"
+                      alt="Third Slide"
+                    />
+                  </div>
+                </div>
+                <!-- Carousel controls -->
+                <a
+                  class="carousel-control-prev"
+                  href="#myCarousel"
+                  data-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#myCarousel"
+                  data-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about-me">
+        <div class="about">
+          <div class="about-grid">
+            <div class="about-img"></div>
+            <div class="about-text">
+              <h2>Why Me?</h2>
+              <p>
+                Seeks for new experience, improve my skills and knowledge.
+                Especially in the world of IT, willing to learn and willing to
+                be trained. Always try to be a hardworker, I am willing to
+                provide the best solution in the works.
+              </p>
+
+              <small>Dayan</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <div class="wrapper">
+          <small>CONTACT ME</small>
+          <h2>mdayan312@gmail.com</h2>
 
           <div>
-            <a href="mailto:mdayan312@gmail.com" target="_blank">
-              <button>HIRE ME</button></a
+            <a href="mailto:mdayan312@gmail.com"
+              ><button type="button" class="btn btn-primary btn-grey">
+                Contact Me
+              </button></a
+            >
+          </div>
+
+          <div class="copyright">
+            <small
+              >Made with <span class="fas fa-heart"></span> by
+              <a href="daydr3am.studio">@mdayann 2020</a></small
             >
           </div>
         </div>
-
-        <div class="hero-img"></div>
       </div>
-    </div>
 
-    <div class="languange">
-      <div class="wrapper">
-        <img src="./assets/adobe-illustrator.svg" alt="" />
-        <img src="./assets/photoshop.svg" alt="" />
-        <img src="./assets/js.svg" alt="" />
-        <img src="./assets/java.svg" alt="" />
-      </div>
-    </div>
+      <a
+        id="back-to-top"
+        href="#"
+        class="btn btn-light btn-lg back-to-top"
+        role="button"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
 
-    <div class="specifics">
-      <div class="wrapper">
-        <h1>Specializing in</h1>
-        <div class="spec-grid header-text">
-          <p>
-            Design and code beautifully simple things, and I love what I do.
-          </p>
-        </div>
 
-        <div class="spec-grid">
-          <div class="spec-item">
-            <div class="spec-content">
-              <h2><span class="fas fa-palette"></span> &nbsp Graphic Design</h2>
-              <p>
-                Created visuals for digital marketing channels such as social
-                media, and online ads, Also do websites and mobiles UI design
-                from scratch or following the branding guidelines.
-              </p>
-            </div>
-          </div>
-
-          <div class="spec-item">
-            <div class="spec-content">
-              <h2><span class="fas fa-code"></span> &nbspWeb Development</h2>
-              <p>
-                Basic knowledge for fullstack web development using React and
-                Express, a bit experienced in backend stack using Springboot,
-                PostgreSQL and MongoDB.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="my-work">
-      <div class="work">
-        <div class="work-grid">
-          <div class="work-desc">
-            <h2>Latest Work</h2>
-            <p>
-              Here are a few design projects I've worked on recently. Want to
-              see more ? Chek this out →
-            </p>
-
-            <div class="social-icons">
-              <a href="https://github.com/mdayann" target="_blank">
-                <span class="fab fa-github"></span
-              ></a>
-              <a href="https://instagram.com/dr3am.realm" target="_blank"
-                ><span class="fab fa-instagram"></span
-              ></a>
-              <a href="https://dribbble.com/mdayann" target="_blank"
-                ><span class="fab fa-dribbble"></span
-              ></a>
-            </div>
-          </div>
-
-          <div class="work-img">
-            <img src="./assets/work.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="about-me">
-      <div class="about">
-        <div class="about-grid">
-          <div class="about-img"></div>
-          <div class="about-text">
-            <h2>Why Me?</h2>
-            <p>
-              Seeks for new experience, improve my skills and knowledge.
-              Especially in the world of IT, willing to learn and willing to be
-              trained. Always try to be a hardworker, I am willing to provide
-              the best solution in the works.
-            </p>
-
-            <small>Dayan</small>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contacts">
-      <div class="wrapper">
-        <small>CONTACT ME</small>
-        <h2>mdayan312@gmail.com</h2>
-
-        <div>
-          <a href="mailto:mdayan312@gmail.com"><button>Contact Me</button></a>
-        </div>
-
-        <div class="copyright">
-          <small
-            >Made with <span class="fas fa-heart"></span> by
-            <a href="daydr3am.studio">@mdayann 2020</a></small
-          >
-        </div>
-      </div>
-    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
